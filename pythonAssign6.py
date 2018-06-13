@@ -16,7 +16,6 @@ while range(10):         # Condition is always true
     print("It is an infinite loop : ")
 
 
-
 #Create a list of integer elements by user input
 #Make a new list which will store square of elements of previous list
 
@@ -33,7 +32,6 @@ for item in myList1:
 print("Square List : " ,myList2)
 
 
-
 # From a list containing ints, strings and floats, make three lists to store them separately
 
 myList3 = [ 1,2,3,"a", "b", 1.5,1.6, 1.7, 8]
@@ -44,8 +42,6 @@ print("\n\nMixed List : " , myList3)
 print("Integer List : " ,int_List)
 print("String List : " ,str_List)
 print("Float List : " ,float_List)
-
-
 
 
 # Using range(1,101), make a list containing even and odd numbers.
@@ -61,16 +57,12 @@ print("\nEven List : ", eList)
 print("Odd List : ", oList)
 
 
-
-
  #Print the pattern
 
 pattern = '*'
 print("\n\n")
 for i in range(1,5):
     print(pattern*i)
-
-
 
 
 # Create a user defined dictionary and get keys corresponding to the value using for loop
@@ -83,7 +75,6 @@ for i in range(5):
     myDict[key] = value
 for it in myDict:
     print(it,':',myDict[it])
-
 
 
  # Take inputs from user to make a list. Again take one input from user and
@@ -103,8 +94,6 @@ if( del_item in user_list):
 else:
     print("Input value is not in List")
 
-
-
+    
 # Termination of code
 print("\n\nEnd of code")
-
