@@ -20,9 +20,11 @@ lang = "Language"
 fees = 5000
 print(("%s course for %s %s is of %dRs")%(s, course, lang, fees))
 
+
 # Some interesting exercise
 name = "Tony Stark"
 salary = 1000000
 print(('%s  %d')%(name, salary))
 
+# Finally done
 print("Done")
