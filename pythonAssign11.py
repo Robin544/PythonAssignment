@@ -35,7 +35,7 @@ t.start()
 
 
 # Make a list that has 5 elements.Create a threading process that prints the 5 elements of the list with a
-# delay of multiple of 2 sec between each display. Delay goes like 2sec-4sec-6sec-8sec-10sec
+# delay of multiple of 2 sec between each display. Delay goes like 2sec-4sec-6sec-8sec-10sec.
 
 def print_2n_delay():
     mylist = ["Robin", "Pooja", "Mayank", "Shalini", 5]
